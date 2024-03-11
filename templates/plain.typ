@@ -14,6 +14,12 @@
   set text(font: "New Computer Modern", lang: "en")
   show math.equation: set text(weight: 400)
   set heading(numbering: "1.1")
+  show heading: set text(font: "DM Serif Display")
+  show heading.where(level: 1): it => [
+    #set align(center)
+    #set text(size: 18pt, font: "DM Serif Display")
+    #counter(heading).display(). #text(it.body)
+  ]
 
   // Title page.
   // The page can contain a logo if you pass one with `logo: "logo.png"`.
