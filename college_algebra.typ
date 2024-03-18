@@ -12,15 +12,15 @@
   Whole Numbers. ${...,-3,-2,-1,0,1,2,3,...}$. *Positive Integers($#sym.ZZ^+$)*
   are #sym.NN. *Negative Integers($#sym.ZZ^-$)* are opposites of #sym.NN, i.e. ${...,-3,-2,-1}$.
 + *Rational Numbers(#sym.QQ)*: A set that can be defined as follows... $ {a/b | a "and" b in ZZ "and" b eq.not 0} $ Since
-  rational numbers are fractions they can also be represendted as decimals.
+  rational numbers are fractions they can also be represented as decimals.
   Decimals are numbers containing a whole and a fractional part(the number(s)
-  succeeding the decimal seperator "."), eg. 1.89, 0.$overline(6666)$. Decimals
+  succeeding the decimal separator "."), #"eg." 1.89, 0.$overline(6666)$. Decimals
   must either terminate or form a repeating pattern, thus, there are two types of
   decimals:
   + Terminating decimals: $15/8 = 1.875$
   + Non-terminating/repeating decimals: $-4/11=-0.36363636...=-0.overline(36)$
 + *Irrational Numbers(#sym.PP or $QQ^'$)*: Numbers that cannot be expressed as
-  fractions eg. #sym.pi, $e$ : Euler's number, $sqrt(2)$, etc.. A set of
+  fractions #"eg." #sym.pi, $e$ : Euler's number, $sqrt(2)$, etc.. A set of
   *Irrational Numbers* can be defined as...
   $ {h | h "is not a rational number"} $ #align(center, [or]) $ {h | h#sym.in.not #sym.QQ} $
 + *Real Numbers(#sym.RR)*: A set of *Rational Numbers* and *Irrational Numbers*. A
@@ -28,10 +28,10 @@
 $ {n | n "is either a rational number or irrational number"} $ #align(center, [or]) $ {n | n in QQ or n in PP} $
 
 === Order Of Operations
-- PEMDAS
+- #"PEMDAS"
   - Parentheses
   - Exponents
-  - Multiplication and Devision
+  - Multiplication and Division
   - Addition and Subtraction
 === Properties Of Real Numbers
 + *Commutative Properties*: Commutative means relating or involving substitution.
@@ -39,7 +39,7 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
   + Multiplication: Numbers may be multiplied in any order without affecting the
     product. $ a times b=b times a $ $ "eg." 3 times -4 = -4 times 3 $
   *NOTE*: Neither subtraction of division is commutative. $"eg." 1-2 eq.not 2-1$ and $1 div 2 eq.not 2 div 1$.
-+ *Associative Properites*: Numbers can be grouped differently without affecting
++ *Associative Properties*: Numbers can be grouped differently without affecting
   the result.
   + Addition: $a + (b + c) = (a + b) + c$
   + Subtraction: $a times (b times c) = (a times b) times c$.
@@ -48,12 +48,19 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
   right just like addition and multiplication.
 + *Distributive Property*: Product of a factor and sum of terms is equal to sum of
   the product of the factor and each terms. $ a times (b+c) = a times b + a times c $
-+ *Identity Prperties*
++ *Identity Properties*
   + *Addition*: There is a unique(there's no other like it) number called the
     additive identity which is 0, when added to a number results in the original
     number. $ a+0=a $ $ "eg." 9 + 0 = 9 $
   + *Multiplication*: There is a unique(there's no other like it) number called the
     multiplicative identity which is 1, when multiplied to a number results in the
     original number. $ a times 1 = a $ $ "eg." 9 times 1 = 9 $
-+ *Inverse Properties*
++ *Inverse Properties*: The opposite of something.
+  + *Addition*: For every real number $a$ there is an additive inverse, which is $-a$, that, when added to $a$ yields the additive identity, which is 0. $ a + (-a) = 0 $
+  + *Multiplication*: If $a$ is every real number other than 0 then, there exists a multiplicative inverse(also known as reciprocal) denoted by $1/a$, that, when multiplied to $a$ yields the multiplicative identity, which is 1. $ a times 1/a = 1 $
 
+=== Algebraic Expressions
++ *Variables*: Symbols representing a value that will be subject to change. Usually represented by small letters, #"eg." $x,y,a$ etc.
++ *Constants*: The opposite of variables, symbols representing a fixed value. #"Eg." #sym.pi, $e$, etc.
++ *Expressions*: A well formed(according to the rules of context) and finite combination of mathematical symbols. Mathematical symbols can be numbers(constants), variables, operators, parenthesis, etc.
++ *Definition of Algebraic Expression*: A collection of constants and variables joined together by algebraic operations of addition, subtraction, multiplication and division.
