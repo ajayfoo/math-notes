@@ -61,6 +61,9 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
 
 === Algebraic Expressions
 + *Variables*: Symbols representing a value that will be subject to change. Usually represented by small letters, #"eg." $x,y,a$ etc.
-+ *Constants*: The opposite of variables, symbols representing a fixed value. #"Eg." #sym.pi, $e$, etc.
++ *Constants*: The opposite of variables, symbols representing a fixed value. #"Eg." #sym.pi, $e$, 79, etc.
 + *Expressions*: A well formed(according to the rules of context) and finite combination of mathematical symbols. Mathematical symbols can be numbers(constants), variables, operators, parenthesis, etc.
-+ *Definition of Algebraic Expression*: A collection of constants and variables joined together by algebraic operations of addition, subtraction, multiplication and division.
++ *Definition of Algebraic Expression*: A collection of constants and variables joined together by algebraic operations of addition, subtraction, multiplication and division. To evaluate an algebraic expression means to determine its value for a given value of all the variables.
+=== Formulas
++ *Equation*: A mathematical statement indicating that two expressions as equal. It may or may not be true, it's only a proposition. Example: $1 + x = 89$.
++ *Formula*: An equation expressing relationship between some variables and constants. Most often used to find the value of one quantity in terms of another or other quantities. Example: $c^2 = a^2 + b^2$[Pythagoras Theorem].
