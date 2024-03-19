@@ -67,3 +67,11 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
 === Formulas
 + *Equation*: A mathematical statement indicating that two expressions as equal. It may or may not be true, it's only a proposition. Example: $1 + x = 89$.
 + *Formula*: An equation expressing relationship between some variables and constants. Most often used to find the value of one quantity in terms of another or other quantities. Example: $c^2 = a^2 + b^2$[Pythagoras Theorem].
+
+== Exponents and Scientific Notation
+=== Rules Of Exponent:
++ *Product Rule*: $ a^m times a^n = a^(m+n), forall a in RR "and" m,n in NN $
++ *Quotient Rule*: $ a^m/a^n = a^(m-n), forall a in RR "and" m,n in NN "and" m>n $
++ *Power Rule*: $ (a^m)^n = a^(m times n), forall a in RR "and" m,n in ZZ^+ $
++ *Zero Exponent Rule*: $ a^0 = 1, forall a in RR, a eq.not 0 $
++ *Negative Exponent Rule*: 
