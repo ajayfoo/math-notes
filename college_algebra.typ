@@ -104,5 +104,27 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
 + *Power Of A Quotient Rule*: $ (a/b)^n = a^n/b^n $
 === Scientific Notation
 - A shorthand for writing very small or large numbers in the terms of the exponent
-or index of 10(in this context exponent is a operation).
+  or index of 10(in this context exponent is a operation).
 - A number is written in scientific notation if it's written in the form... $ a times 10^n, "where" a in [1,10) and n in ZZ $
+
+== Radicals and Rational Exponents
+=== Square Roots
++ Roots are the inverse of exponents, i.e. they undo the results of exponents. In $x^n=b$, _x_ is
+  the _nth_ root of _b_.
++ *Principal Square Roots*: A positive number square root. $sqrt(2)$ is a one
+  whereas $-sqrt(2)$ is not.
++ Roots are represented using the radical symbol: $sqrt(space)$ and expression(s)
+  sitting inside the radical symbol are called radicand. If radical expressions
+  don't have an object to it's top left, like in $root(n, a)$, then it's assumed
+  we are taking the square root of the radicand. The object to the top left of the
+  radical symbol is called the index, it tells us which root we have to find. For
+  example in $root(n, a)$, we are taking the _nth_ root of _a_.
++ $root(n, a)=a^(1/n)$, $(root(n, a))^p=a^(p/n)=root(n, (a^p))$.
+=== Rationalizing Denominators
++ The process of removing the radical from the denominator by multiplying the
+  denominator and numerator with the radical at the denominator. Example: To
+  rationalize the denomiators of the expression $1/(2 sqrt(a))$ we'd multiply the
+  expression by $sqrt(a)/sqrt(a)$, which will result to $sqrt(a)/(2 a)$.
++ If our denominator has two terms then we'd first have to find its conjugate and
+  then multiply it with the denominator and the numerator. A conjuate of two terms
+  are the same two terms with opposite sign in the middle. Example: conjugate of $root(6, 32)-32$ is $root(6, 32)+32$.
