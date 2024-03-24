@@ -31,10 +31,10 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
 + *Exponential Notation*:
   - Factors: Positive integers that divide a number evenly.
   - $a^n$ is an Exponential Notation it means that _a_ is multiplied by itself _n_ times.
-    It's read as "a to the nth" or "a raised to n". #align(center, [#"\"n\" number of times"])$ a^n = a times a times a times ... times a $ _a_ is
+    It's read as "a to the nth" or "a raised to n". <exponent_definition>#align(center, [#"\"n\" number of times"])$ a^n = a times a times a times ... times a $ _a_ is
     called the *base* and _n_ is called the *exponent*. The result after evaluating $a^n$ for
     some _n_ is called the *power* of _a_.
-  - Exponents are also a type of math operation that tell us to take the *base* and
+  - Exponentiation is a type of math operation that tell us to take the *base* and
     multiply it by itself *exponent* number of times. Exponents are also called
     *indices*.
   - Powers of 2 are 1,2,4,8,16,32,...,256 and so on. Note: $2^0=1$.
@@ -75,13 +75,13 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
     multiplied to $a$ yields the multiplicative identity, which is 1. $ a times 1/a = 1 $
 
 === Algebraic Expressions
-+ *Variables*: Symbols representing a value that will be subject to change.
-  Usually represented by small letters, #"eg." $x,y,a$ etc.
++ *Variables or Indeterminates*: Symbols representing a value that will be subject
+  to change. Usually represented by small letters, #"eg." $x,y,a$ etc.
 + *Constants*: The opposite of variables, symbols representing a fixed value. #"Eg." #sym.pi, $e$,
   79, etc.
-+ *Expressions*: A well formed(according to the rules of context) and finite
-  combination of mathematical symbols. Mathematical symbols can be
-  numbers(constants), variables, operators, parenthesis, etc.
++ *Expressions*<expression_definition>: A well formed(according to the rules of
+  context) and finite combination of mathematical symbols. Mathematical symbols
+  can be numbers(constants), variables, operators, parenthesis, etc.
 + *Definition of Algebraic Expression*: A collection of constants and variables
   joined together by algebraic operations of addition, subtraction, multiplication
   and division. To evaluate an algebraic expression means to determine its value
@@ -128,3 +128,13 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
 + If our denominator has two terms then we'd first have to find its conjugate and
   then multiply it with the denominator and the numerator. A conjuate of two terms
   are the same two terms with opposite sign in the middle. Example: conjugate of $root(6, 32)-32$ is $root(6, 32)+32$.
+== Polynomials
+Mathematical #link(<expression_definition>, [expressions]) consisting
+varaibles(indeterminates) and constants, where only addition, subtraction,
+multiplication and exponentiation consisting of only posivite #link(<exponent_definition>, [exponents]) for
+the variables are involved. *Example*: $x+3$, 0,$root(79, a pi)+32$ and $-x^(12/68) + b d$ are
+polynomials, whereas $x^(-1)$, $sqrt(y)/y$, $(z x)/y + x^3 + 1/x^2$ are not.
+
+=== Related Terminology
++ Term
++ Degree
