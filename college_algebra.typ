@@ -132,9 +132,19 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
 Mathematical #link(<expression_definition>, [expressions]) consisting
 varaibles(indeterminates) and constants, where only addition, subtraction,
 multiplication and exponentiation consisting of only posivite #link(<exponent_definition>, [exponents]) for
-the variables are involved. *Example*: $x+3$, 0,$root(79, a pi)+32$ and $-x^(12/68) + b d$ are
+the variables are involved. *Polynomials* are typically written in the following
+form: $ a_n x^n + ... + a_2 x^2 + a_1 x + a_0 $ Where $a_i$ is called the
+coefficient, $a_0$ is called the constant and each product $a_i x^i$ is called
+the term. *Example*: $x+3$, 0,$root(79, a pi)+32$ and $-x^(12/68) + b d$ are
 polynomials, whereas $x^(-1)$, $sqrt(y)/y$, $(z x)/y + x^3 + 1/x^2$ are not.
 
 === Related Terminology
-+ Term
-+ Degree
++ *Term*: A product of variables and/or constants. Example: $a^2, 2 a b "and" b^2$ in
+  the polynomial $a^2 + 2 a b + b^2$ are called terms.
++ *Coefficient*: A number multiplied by a variable. Example: 2 in the term $2 a b$.
++ *Degree*: Highest exponent of a variable present in the expression. Example: The
+  degree of the expression $a^78 + c^32 + d^2$ is 78.
++ *Leading Term*: The term providing the degree of the expression. They are called _*leading term*_ because
+  they are usually written in the beginning of the expression. Example: $327 pi b^88$ in
+  the expression $327 pi b^88 + c^2 + d + 45$.
++ *Leading Coefficient*: The constant part of the *leading term*.
