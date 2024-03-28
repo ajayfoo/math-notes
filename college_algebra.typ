@@ -94,7 +94,7 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
   or other quantities. Example: $c^2 = a^2 + b^2$[Pythagoras Theorem].
 
 == Exponents and Scientific Notation
-=== Rules Of Exponent:
+=== Rules Of Exponent
 + *Product Rule*: $ a^m times a^n = a^(m+n), forall a in RR "and" m,n in NN $
 + *Quotient Rule*: $ a^m/a^n = a^(m-n), forall a in RR "and" m,n in NN "and" m>n $
 + *Power Rule*: $ (a^m)^n = a^(m times n), forall a in RR "and" m,n in ZZ^+ $
@@ -148,3 +148,12 @@ polynomials, whereas $x^(-1)$, $sqrt(y)/y$, $(z x)/y + x^3 + 1/x^2$ are not.
   they are usually written in the beginning of the expression. Example: $327 pi b^88$ in
   the expression $327 pi b^88 + c^2 + d + 45$.
 + *Leading Coefficient*: The constant part of the *leading term*.
+
+=== Special Forms of Polynomials
++ *Perfect Square Trinomials*: Square of a binomial. Typical form: $ (x+a)^2 = (x^2 + 2 a x + a^2) $
++ *Difference Of Squares*: Product of two identical binomials except for the fact
+  that at most one of the terms of the second binomial's sign is opposite of the
+  corresponding term in the first binomial. Examples:- $ p^2 - q^2 = (p+q)(p-q) $ $ (-1)(a^2) + b^2 = b^2 - a^2 = (-a+b)(a+b) $
+
+=== Factoring
+
