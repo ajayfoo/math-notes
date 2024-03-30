@@ -4,19 +4,20 @@
 #let project(title: "", authors: (), date: none, logo: none, body) = {
   // Set the document's basic properties.
   set document(author: authors, title: title)
-  set page(numbering: "1", number-align: center, header: context{
-    let elems = query(selector(heading.where(level: 1)).before(here()))
-    let title = smallcaps[
-      College Algebra
-    ]
-    if elems.len() == 0 {
-      align(right, title)
-      title
-    } else {
-      let body = elems.last().body
-      h(1fr) + emph(body)
-    }
-  })
+  set page(
+    numbering: "1", number-align: center, header: context{
+      let elems = query(selector(heading.where(level: 1)).before(here()))
+      let title = smallcaps[
+        College Algebra
+      ]
+      let allHeadings = query(selector(heading.where(level: 1)).after(here()))
+      let currentHeading = allHeadings.first()
+      if elems.len() != 0 {
+        let body = currentHeading.body
+        h(1fr) + emph(body)
+      }
+    },
+  )
   set text(font: "New Computer Modern", lang: "en")
   show math.equation: set text(weight: 400)
   set heading(numbering: "1.1")

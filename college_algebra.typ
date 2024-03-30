@@ -149,7 +149,7 @@ polynomials, whereas $x^(-1)$, $sqrt(y)/y$, $(z x)/y + x^3 + 1/x^2$ are not.
   the expression $327 pi b^88 + c^2 + d + 45$.
 + *Leading Coefficient*: The constant part of the *leading term*.
 
-=== Common Forms of Polynomials
+=== Special Forms of Polynomials
 + *Perfect Square Trinomials*: Square of a binomial. Typical form: $ (x+a)^2 = (x^2 + 2 a x + a^2) $
 + *Difference Of Squares*: Product of two identical binomials except for the fact
   that at most one of the terms of the second binomial's sign is opposite of the
@@ -157,3 +157,4 @@ polynomials, whereas $x^(-1)$, $sqrt(y)/y$, $(z x)/y + x^3 + 1/x^2$ are not.
 
 === Factoring
 
+= After
