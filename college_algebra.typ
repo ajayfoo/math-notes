@@ -155,6 +155,16 @@ polynomials, whereas $x^(-1)$, $sqrt(y)/y$, $(z x)/y + x^3 + 1/x^2$ are not.
   that at most one of the terms of the second binomial's sign is opposite of the
   corresponding term in the first binomial. Examples:- $ p^2 - q^2 = (p+q)(p-q) $ $ (-1)(a^2) + b^2 = b^2 - a^2 = (-a+b)(a+b) $
 
-=== Factoring
-
-= After
+== Factoring
+=== Greatest Common Factor
+The Greatest Common Factor of two or more numbers is the gretest number that
+divides them evenly. Example: GCF of 12, 48, 9 and 36 is 3, as 3 is the greatest
+number that can divide 12, 48, 9 and 36 evenly(without leaving any remainder).=== Greatest Common Factor Of a Polynomial
+The GCF of a two or more polynomials is the greatest polynomial that can evenly
+divide them. Example: GCF of $x^4 + 6x^3 + x$ and $x^10 + x^5$ is _x_.\
+*Example Problem*: Factorize $49 m b^2 - 35 m^2 b a + 77 m a^2$\
+*Solution*:\
+$
+    &= 7m (7b^2 - 5m b a + 11a^2) \
+$
+=== Trinomial with Leading Coefficient 1
