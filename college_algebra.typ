@@ -5,6 +5,7 @@
 = Prerequisites
 
 == Real Numbers: Algebra Essentials
+
 === Number Sets
 + *Natural Numbers(#sym.NN)*: Counting Numbers. ${1,2,3,...}$
 + *Whole Numbers(#sym.WW)*: Natural Numbers including the zero. ${0,1,2,3,...}$
@@ -45,6 +46,7 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
   - #[*E*]#"xponents"
   - #[*M*]#"ultiplication" and #[*D*]#"ivision"
   - #[*A*]#"ddition" and #[*S*]#"ubtraction"
+
 === Properties Of Real Numbers
 + *Commutative Properties*: Commutative means relating or involving substitution.
   + Addition: Numbers may be added in any order without affecting the sum. $ a + b = b + a $ $ "eg." 3 + (-4) = (-4) + 3 $
@@ -86,6 +88,7 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
   joined together by algebraic operations of addition, subtraction, multiplication
   and division. To evaluate an algebraic expression means to determine its value
   for a given value of all the variables.
+
 === Formulas
 + *Equation*: A mathematical statement indicating that two expressions as equal.
   It may or may not be true, it's only a proposition. Example: $1 + x = 89$.
@@ -94,6 +97,7 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
   or other quantities. Example: $c^2 = a^2 + b^2$[Pythagoras Theorem].
 
 == Exponents and Scientific Notation
+
 === Rules Of Exponent
 + *Product Rule*: $ a^m times a^n = a^(m+n), forall a in RR "and" m,n in NN $
 + *Quotient Rule*: $ a^m/a^n = a^(m-n), forall a in RR "and" m,n in NN "and" m>n $
@@ -102,12 +106,14 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
 + *Negative Exponent Rule*: $ a^(-n) = 1/a^n $
 + *Power Of A Product Rule*: $ (a times b)^n = a^n times b^n $
 + *Power Of A Quotient Rule*: $ (a/b)^n = a^n/b^n $
+
 === Scientific Notation
 - A shorthand for writing very small or large numbers in the terms of the exponent
   or index of 10(in this context exponent is a operation).
 - A number is written in scientific notation if it's written in the form... $ a times 10^n, "where" a in [1,10) and n in ZZ $
 
 == Radicals and Rational Exponents
+
 === Square Roots
 + Roots are the inverse of exponents, i.e. they undo the results of exponents. In $x^n=b$, _x_ is
   the _nth_ root of _b_.
@@ -120,6 +126,7 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
   radical symbol is called the index, it tells us which root we have to find. For
   example in $root(n, a)$, we are taking the _nth_ root of _a_.
 + $root(n, a)=a^(1/n)$, $(root(n, a))^p=a^(p/n)=root(n, (a^p))$.
+
 === Rationalizing Denominators
 + The process of removing the radical from the denominator by multiplying the
   denominator and numerator with the radical at the denominator. Example: To
@@ -128,6 +135,7 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
 + If our denominator has two terms then we'd first have to find its conjugate and
   then multiply it with the denominator and the numerator. A conjuate of two terms
   are the same two terms with opposite sign in the middle. Example: conjugate of $root(6, 32)-32$ is $root(6, 32)+32$.
+
 == Polynomials
 Mathematical #link(<expression_definition>, [expressions]) consisting
 varaibles(indeterminates) and constants, where only addition, subtraction,
@@ -156,15 +164,37 @@ polynomials, whereas $x^(-1)$, $sqrt(y)/y$, $(z x)/y + x^3 + 1/x^2$ are not.
   corresponding term in the first binomial. Examples:- $ p^2 - q^2 = (p+q)(p-q) $ $ (-1)(a^2) + b^2 = b^2 - a^2 = (-a+b)(a+b) $
 
 == Factoring
+
 === Greatest Common Factor
 The Greatest Common Factor of two or more numbers is the gretest number that
 divides them evenly. Example: GCF of 12, 48, 9 and 36 is 3, as 3 is the greatest
-number that can divide 12, 48, 9 and 36 evenly(without leaving any remainder).=== Greatest Common Factor Of a Polynomial
-The GCF of a two or more polynomials is the greatest polynomial that can evenly
-divide them. Example: GCF of $x^4 + 6x^3 + x$ and $x^10 + x^5$ is _x_.\
+number that can divide 12, 48, 9 and 36 evenly(without leaving any remainder).
+
+=== Greatest Common Factor Of a Polynomial The GCF of a two or more
+polynomials is the greatest polynomial that can evenly divide them. Example: GCF
+of $x^4 + 6x^3 + x$ and $x^10 + x^5$ is _x_.\
 *Example Problem*: Factorize $49 m b^2 - 35 m^2 b a + 77 m a^2$\
 *Solution*:\
 $
     &= 7m (7b^2 - 5m b a + 11a^2) \
 $
+
 === Trinomial with Leading Coefficient 1
+A trinomial of the form $x^2 + b x + c$ can be factorized as $(x + p)(x + q)$ if
+there exists a pair of _p_ and _q_ such that $p + q = b$ and $p q = c$, else the
+polynomial is a prime polynomial or irreducible polynomial.
+
+=== Factoring by Grouping
+To factor a polynomial in the form $a x^2 + b x + c$ we need to...
++ Find two numbers _p_ and _q_ such that $p q = a c$ and $p + q = b$.
++ Write the entire expression as $a x^2 + p x + q x + c$
++ Pull out the GFC of $a x^2 + p x$ and $q x + c$.
++ Futher factorize the entire expression.
+
+*Example*: Factorize $2x^2 + 9x + 9$ via grouping.\
+We can take $p = 6$ and $q = 3$. $ because 6 times 3 = 2 times 9$ and $6 + 3 = 9$.
+$
+    &=2x^2 + 6x + 3x + 9\
+    &=2x(x + 3) + 3(x + 3) "...pull out GFC"\
+    &=(2x+3)(x+3) "...factorize further"
+$
