@@ -7,6 +7,7 @@
 == Real Numbers: Algebra Essentials
 
 === Number Sets
+
 + *Natural Numbers(#sym.NN)*: Counting Numbers. ${1,2,3,...}$
 + *Whole Numbers(#sym.WW)*: Natural Numbers including the zero. ${0,1,2,3,...}$
 + *Integers(#sym.ZZ)*: A union of set of opposites of Natural Numbers and set of
@@ -29,6 +30,7 @@
 $ {n | n "is either a rational number or irrational number"} $ #align(center, [or]) $ {n | n in QQ or n in PP} $
 
 === Order Of Operations
+
 + *Exponential Notation*:
   - Factors: Positive integers that divide a number evenly.
   - $a^n$ is an Exponential Notation it means that _a_ is multiplied by itself _n_ times.
@@ -48,6 +50,7 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
   - #[*A*]#"ddition" and #[*S*]#"ubtraction"
 
 === Properties Of Real Numbers
+
 + *Commutative Properties*: Commutative means relating or involving substitution.
   + Addition: Numbers may be added in any order without affecting the sum. $ a + b = b + a $ $ "eg." 3 + (-4) = (-4) + 3 $
   + Multiplication: Numbers may be multiplied in any order without affecting the
@@ -77,6 +80,7 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
     multiplied to $a$ yields the multiplicative identity, which is 1. $ a times 1/a = 1 $
 
 === Algebraic Expressions
+
 + *Variables or Indeterminates*: Symbols representing a value that will be subject
   to change. Usually represented by small letters, #"eg." $x,y,a$ etc.
 + *Constants*: The opposite of variables, symbols representing a fixed value. #"Eg." #sym.pi, $e$,
@@ -90,6 +94,7 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
   for a given value of all the variables.
 
 === Formulas
+
 + *Equation*: A mathematical statement indicating that two expressions as equal.
   It may or may not be true, it's only a proposition. Example: $1 + x = 89$.
 + *Formula*: An equation expressing relationship between some variables and
@@ -99,6 +104,7 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
 == Exponents and Scientific Notation
 
 === Rules Of Exponent
+
 + *Product Rule*: $ a^m times a^n = a^(m+n), forall a in RR "and" m,n in NN $
 + *Quotient Rule*: $ a^m/a^n = a^(m-n), forall a in RR "and" m,n in NN "and" m>n $
 + *Power Rule*: $ (a^m)^n = a^(m times n), forall a in RR "and" m,n in ZZ^+ $
@@ -108,6 +114,7 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
 + *Power Of A Quotient Rule*: $ (a/b)^n = a^n/b^n $
 
 === Scientific Notation
+
 - A shorthand for writing very small or large numbers in the terms of the exponent
   or index of 10(in this context exponent is a operation).
 - A number is written in scientific notation if it's written in the form... $ a times 10^n, "where" a in [1,10) and n in ZZ $
@@ -115,6 +122,7 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
 == Radicals and Rational Exponents
 
 === Square Roots
+
 + Roots are the inverse of exponents, i.e. they undo the results of exponents. In $x^n=b$, _x_ is
   the _nth_ root of _b_.
 + *Principal Square Roots*: A positive number square root. $sqrt(2)$ is a one
@@ -128,6 +136,7 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
 + $root(n, a)=a^(1/n)$, $(root(n, a))^p=a^(p/n)=root(n, (a^p))$.
 
 === Rationalizing Denominators
+
 + The process of removing the radical from the denominator by multiplying the
   denominator and numerator with the radical at the denominator. Example: To
   rationalize the denomiators of the expression $1/(2 sqrt(a))$ we'd multiply the
@@ -137,6 +146,7 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
   are the same two terms with opposite sign in the middle. Example: conjugate of $root(6, 32)-32$ is $root(6, 32)+32$.
 
 == Polynomials
+
 Mathematical #link(<expression_definition>, [expressions]) consisting
 varaibles(indeterminates) and constants, where only addition, subtraction,
 multiplication and exponentiation consisting of only posivite #link(<exponent_definition>, [exponents]) for
@@ -147,6 +157,7 @@ the term. *Example*: $x+3$, 0,$root(79, a pi)+32$ and $-x^(12/68) + b d$ are
 polynomials, whereas $x^(-1)$, $sqrt(y)/y$, $(z x)/y + x^3 + 1/x^2$ are not.
 
 === Related Terminology
+
 + *Term*: A product of variables and/or constants. Example: $a^2, 2 a b "and" b^2$ in
   the polynomial $a^2 + 2 a b + b^2$ are called terms.
 + *Coefficient*: A number multiplied by a variable. Example: 2 in the term $2 a b$.
@@ -158,6 +169,7 @@ polynomials, whereas $x^(-1)$, $sqrt(y)/y$, $(z x)/y + x^3 + 1/x^2$ are not.
 + *Leading Coefficient*: The constant part of the *leading term*.
 
 === Special Forms of Polynomials
+
 + *Perfect Square Trinomials*: Square of a binomial. Typical form: $ (x+a)^2 = (x^2 + 2 a x + a^2) $
 + *Difference Of Squares*: Product of two identical binomials except for the fact
   that at most one of the terms of the second binomial's sign is opposite of the
@@ -166,13 +178,15 @@ polynomials, whereas $x^(-1)$, $sqrt(y)/y$, $(z x)/y + x^3 + 1/x^2$ are not.
 == Factoring
 
 === Greatest Common Factor
+
 The Greatest Common Factor of two or more numbers is the gretest number that
 divides them evenly. Example: GCF of 12, 48, 9 and 36 is 3, as 3 is the greatest
 number that can divide 12, 48, 9 and 36 evenly(without leaving any remainder).
 
-=== Greatest Common Factor Of a Polynomial The GCF of a two or more
-polynomials is the greatest polynomial that can evenly divide them. Example: GCF
-of $x^4 + 6x^3 + x$ and $x^10 + x^5$ is _x_.\
+=== Greatest Common Factor Of a Polynomial
+
+The GCF of a two or more polynomials is the greatest polynomial that can evenly
+divide them. Example: GCF of $x^4 + 6x^3 + x$ and $x^10 + x^5$ is _x_.\
 *Example Problem*: Factorize $49 m b^2 - 35 m^2 b a + 77 m a^2$\
 *Solution*:\
 $
@@ -180,11 +194,13 @@ $
 $
 
 === Trinomial with Leading Coefficient 1
+
 A trinomial of the form $x^2 + b x + c$ can be factorized as $(x + p)(x + q)$ if
 there exists a pair of _p_ and _q_ such that $p + q = b$ and $p q = c$, else the
 polynomial is a prime polynomial or irreducible polynomial.
 
 === Factoring by Grouping
+
 To factor a polynomial in the form $a x^2 + b x + c$ we need to...
 + Find two numbers _p_ and _q_ such that $p q = a c$ and $p + q = b$.
 + Write the entire expression as $a x^2 + p x + q x + c$
@@ -192,9 +208,46 @@ To factor a polynomial in the form $a x^2 + b x + c$ we need to...
 + Futher factorize the entire expression.
 
 *Example*: Factorize $2x^2 + 9x + 9$ via grouping.\
-We can take $p = 6$ and $q = 3$. $ because 6 times 3 = 2 times 9$ and $6 + 3 = 9$.
+*Solution*:
+
+We can take $p = 6$ and $q = 3$. $because 6 times 3 = 2 times 9$ and $6 + 3 = 9$.
 $
     &=2x^2 + 6x + 3x + 9\
-    &=2x(x + 3) + 3(x + 3) "...pull out GFC"\
-    &=(2x+3)(x+3) "...factorize further"
+    &=2x(x + 3) + 3(x + 3) &&"Pull out GFC"\
+    &=(2x+3)(x+3)          &&"Factorize further"\
+$
+
+=== Factoring A Prefect Square Trinomial
+
+A perfect square trinomial is a trinomial that can be represented as a square of
+a binomial. Such as $a^2 + 2a b + b^2 = (a + b)^2$ and $a^2 - 2a b + b^2 = (a - b)^2$.
+
+*Example*: Factor perfect square polynomial $49x^2 - 14x + 1$.\
+*Solution*:
+$
+    &=49x^2 -7x -7x + 1\
+    &=7x(7x -1) -1(7x - 1)\
+    &=(7x-1)(7x-1)\
+    &=(7x-1)^2\
+$
+
+=== Factoring A Difference Of Squares
+
+We can use the property of difference of squares to find factors of any binomial
+the follows the form $a^2 - b^2$.
+
+*Example*: Find factors of the difference of squares $81y^2 - 100$.\
+*Solution*:
+$
+    &=(9y)^2 - 10^2\
+    &=(9y - 10)(9y + 10) &&"Property of difference of squares"\
+$
+
+=== Factoring The Sum And Difference Of Cubes
+
+Sum and difference of cubes can be factored into a binomial and trinomial like
+so...\
+$
+  a^3 + b^3 = (a+b)(a^2 - a b + b^2)\
+  a^3 - b^3 = (a-b)(a^2 + a b + b^2)
 $
