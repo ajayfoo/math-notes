@@ -251,3 +251,6 @@ $
   a^3 + b^3 = (a+b)(a^2 - a b + b^2)\
   a^3 - b^3 = (a-b)(a^2 + a b + b^2)
 $
+
+== Rational Expressions
+The quotient of two polynomial expressions is called a rational expression.
