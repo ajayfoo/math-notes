@@ -254,3 +254,23 @@ $
 
 == Rational Expressions
 The quotient of two polynomial expressions is called a rational expression.
+
+== Reference
++ #link(
+    "https://openstax.org/details/books/college-algebra-2e",
+  )[College Algebra 2e by Openstax]
+
+#pagebreak()
+
+= Equations And Inequalities
+== Prerequisite
++ *Space*: A set with definition of relationships among its members.
++ *Euclidean Space*: Basic shape of geometry.
++ *Coordinate System*: A system that uses one or more numbers(called coordinates)
+  to uniquely identify the position of the points or other geometric objects on a
+  manifold(?) such as Eucliden space.
++ *Dimension*: The minimum number of coordinates needed to specify a point within
+  it.
++ *Plane*: A Euclidean space of dimension two, denoted by $EE^2$.
++ *Cartesian*: Of or relating to the works of Rene Descartes.
++ *Cartesian Coordinate System*:
