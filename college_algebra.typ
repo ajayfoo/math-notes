@@ -273,4 +273,23 @@ The quotient of two polynomial expressions is called a rational expression.
   it.
 + *Plane*: A Euclidean space of dimension two, denoted by $EE^2$.
 + *Cartesian*: Of or relating to the works of Rene Descartes.
-+ *Cartesian Coordinate System*:
++ *Cartesian/Rectangular Coordinate System*: Cartesian Coordinate System in a
+  plane is a coordinate system that uniquely identifies a point in the plane by a
+  pair of ordered real numbers called *coordinates*. These coordinates are signed
+  distances from the two fixed lines, which must be perpendicular to each other,
+  called the *coordinate axes* or *coordinates lines*. The *coordinate axes* are
+  typically called X axis and Y axis. The point where the two axes meet is called
+  the *origin* and it's coordinates are (0,0). The X and Y axis divide the plane
+  into 4 *quadrants*.
+
+=== Distance Formula
+Distance formula is used to find the distance between two points in a plane. The
+distance between points $P(x_1,y_1)$ and $Q(x_2,y_2)$, can be expressed as
+follows.
+$ d = sqrt((x_1 - x_2)^2 + (y_1 - y_2)^2) = sqrt((x_2 - x_1)^2 + (y_2 - y_1)^2) $
+
+=== Midpoint Formula
+Midpoint is the point that is equidistant from the two ends of a line segment.
+The midpoint of a line segment having end points $P(x_1,y_1)$ and $Q(x_2,y_2)$ can
+be expressed as follows.
+$ M = ((x_1 + x_2)/2, (y_1 + y_2)/2) $
