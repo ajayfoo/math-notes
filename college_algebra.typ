@@ -253,9 +253,11 @@ $
 $
 
 == Rational Expressions
+
 The quotient of two polynomial expressions is called a rational expression.
 
 == Reference
+
 + #link(
     "https://openstax.org/details/books/college-algebra-2e",
   )[College Algebra 2e by Openstax]
@@ -263,7 +265,9 @@ The quotient of two polynomial expressions is called a rational expression.
 #pagebreak()
 
 = Equations And Inequalities
+
 == Prerequisite
+
 + *Space*: A set with definition of relationships among its members.
 + *Euclidean Space*: Basic shape of geometry.
 + *Coordinate System*: A system that uses one or more numbers(called coordinates)
@@ -283,13 +287,38 @@ The quotient of two polynomial expressions is called a rational expression.
   into 4 *quadrants*.
 
 === Distance Formula
+
 Distance formula is used to find the distance between two points in a plane. The
 distance between points $P(x_1,y_1)$ and $Q(x_2,y_2)$, can be expressed as
 follows.
 $ d = sqrt((x_1 - x_2)^2 + (y_1 - y_2)^2) = sqrt((x_2 - x_1)^2 + (y_2 - y_1)^2) $
 
 === Midpoint Formula
+
 Midpoint is the point that is equidistant from the two ends of a line segment.
 The midpoint of a line segment having end points $P(x_1,y_1)$ and $Q(x_2,y_2)$ can
 be expressed as follows.
 $ M = ((x_1 + x_2)/2, (y_1 + y_2)/2) $
+
+== Linear Equations In One Variable
+
+A *linear equation* is a equation used to represent a straight line using only
+one variable. The degree of the variable must be 1. *Standard Form* of *linear
+equation* is as follows...
+$ a x + b = 0 $
+where _a_ and _b_ are constant real numbers and $a eq.not 0$.
+
+=== Types Of Linear Equation In One Variable
+
++ *Identity*: True for all the values of the variable. *Example*: $8x - 5x + 4 = 3x + 4$, $322x = 322x$
++ *Conditional*: True only for some values of the variable. *Example*: $2x + 6 = 3$
++ *Inconsistent*: False for all the values of the variable. A false statement.
+  *Example*: $2x = 7x$
+
+=== Solving Rational Equations
+A equation that consists of at least one rational expression containing at least
+one variable at it's denominator is called a *rational equation*.\
+*Example*:-
+$
+  7/(2x) - 5/(3x) = 22/7, (x^2)/(9x^3) - 73 = (3 pi)/x
+$
