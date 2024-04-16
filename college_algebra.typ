@@ -285,6 +285,12 @@ The quotient of two polynomial expressions is called a rational expression.
   typically called X axis and Y axis. The point where the two axes meet is called
   the *origin* and it's coordinates are (0,0). The X and Y axis divide the plane
   into 4 *quadrants*.
++ *Abscissa & Ordinate*: *Abscissa* is the x-coordinate and *Ordinate* is the
+  y-coordinate.
++ *Slope*: Slope or Gradient is a number that describes both the direction and
+  steepness(the extent of rising or falling quickly) of a line. Slope is usually
+  denoted by 'm' and expressed as follows in relation to two points $(x_1,y_1)$ and $(x_2, y_2)$.
+$ m = (y_2 - y_1)/(x_2 - x_1) = (y_1 - y_2)/(x_1 - x_2) $
 
 === Distance Formula
 
@@ -302,9 +308,9 @@ $ M = ((x_1 + x_2)/2, (y_1 + y_2)/2) $
 
 == Linear Equations In One Variable
 
-A *linear equation* is a equation used to represent a straight line using only
-one variable. The degree of the variable must be 1. *Standard Form* of *linear
-equation* is as follows...
+A *linear equation in one variable* is a equation used to represent a straight
+line using only one variable. The degree of the variable must be 1. *Standard
+Form* of *linear equation* is as follows...
 $ a x + b = 0 $
 where _a_ and _b_ are constant real numbers and $a eq.not 0$.
 
@@ -315,10 +321,28 @@ where _a_ and _b_ are constant real numbers and $a eq.not 0$.
 + *Inconsistent*: False for all the values of the variable. A false statement.
   *Example*: $2x = 7x$
 
-=== Solving Rational Equations
+=== Rational Equations
+
 A equation that consists of at least one rational expression containing at least
 one variable at it's denominator is called a *rational equation*.\
 *Example*:-
 $
   7/(2x) - 5/(3x) = 22/7, (x^2)/(9x^3) - 73 = (3 pi)/x
 $
+
+=== Different Forms Of Line Equation
+
++ *Standard Form* $ A x + B y = C $ where _A, B,_ and _C_ are integer constants.
+
++ *Slope Intercept Form* $ y = m x + b $ where, _m_ is the slope and _b_ is the
+  y-intercept(the ordinate of the point where the line intersects the Y axis) of
+  the line.
+
++ *Point-Slope Form* $ y - y_0 = m(x - x_0) $ where, $(x_0,y_0)$ a point where the
+  line passes through and _m_ is the slope.
+
++ *Two Point Form* $ y - y_1 = ((y_2 - y_1)/(x_2 - x_1))(x - x_1) = ((y_1 - y_2)/(x_1 - x_2))(x - x_1) $ where, $(x_1, y_1)$ and $(x_2, y_2)$ are
+  two distinct points where the line passes through.
+
++ *Intercept Form* $ x/a + y/b = 1 $ where, _a_ is the x-intercept and _b_ is the
+  y-intercept.
