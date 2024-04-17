@@ -331,6 +331,9 @@ $
 $
 
 === Different Forms Of Line Equation
++ *Vertical Lines* $ x = c $ where _c_ is the x-intercept. The slope is undefined.
+
++ *Horizontal Lines* $ y = c $ where _c_ is the y-intercept. The slope is 0.
 
 + *Standard Form* $ A x + B y = C $ where _A, B,_ and _C_ are integer constants.
 
@@ -346,3 +349,12 @@ $
 
 + *Intercept Form* $ x/a + y/b = 1 $ where, _a_ is the x-intercept and _b_ is the
   y-intercept.
+
+=== Properties of a Pair of Lines
+
++ The slopes of two parallel lines are the same. $m_1 = m_2$ where $m_1$ is the
+  slope of line _l_ and $m_2$ of line _p_ and _l_ $parallel$ _p_ .
+
++ The slopes of two lines that are perpendicular to each other are negative
+  reciprocal of each other. $m_1 = -1/m_2$ where $m_1$ is the slope of line _l_ and $m_2$ of
+  line _p_ and _l_ $perp$ _p_ .
