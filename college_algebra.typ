@@ -125,8 +125,8 @@ $ {n | n "is either a rational number or irrational number"} $ #align(center, [o
 
 + Roots are the inverse of exponents, i.e. they undo the results of exponents. In $x^n=b$, _x_ is
   the _nth_ root of _b_.
-+ *Principal Square Roots*: A positive number square root. $sqrt(2)$ is a one
-  whereas $-sqrt(2)$ is not.
++ *Principal Square Roots*: A positive number square root. $sqrt(2)$ is a
+  *Principal Square Root* whereas $-sqrt(2)$ is not.
 + Roots are represented using the radical symbol: $sqrt(space)$ and expression(s)
   sitting inside the radical symbol are called radicand. If radical expressions
   don't have an object to it's top left, like in $root(n, a)$, then it's assumed
@@ -358,3 +358,12 @@ $
 + The slopes of two lines that are perpendicular to each other are negative
   reciprocal of each other. $m_1 = -1/m_2$ where $m_1$ is the slope of line _l_ and $m_2$ of
   line _p_ and _l_ $perp$ _p_ .
+
+== Complex Numbers
+
+=== Prerequisites
+
++ *Imaginary Number*: A multiple of a quantity called "_i_", which is defined by $i^2 = -1$.
+  *Example*: $-i, 5i "and" (32i)/72$
+
+*Complex Numbers*
