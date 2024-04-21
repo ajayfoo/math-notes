@@ -364,6 +364,40 @@ $
 === Prerequisites
 
 + *Imaginary Number*: A multiple of a quantity called "_i_", which is defined by $i^2 = -1$.
-  *Example*: $-i, 5i "and" (32i)/72$
+  *Example*: $-i, 5i "and" (32/72)i$
 
-*Complex Numbers*
+A *Complex Number* is the sum of a real and an imaginary numbers. The standard
+form of a complex number is $a + b i$, where $a$ is the real part and $b$ is the
+imaginary part. If $a=0 and b eq.not 0$ then it's called a *Pure Imaginary
+Number*.
+
+*Example*: $5 + 3i$, $-89 + (10/22)i$
+
+=== Complex Plane
+
+A *Complex Plane* is a coordinate system for plotting complex numbers. In the
+*Complex Plane* the real part is represented along the horizontal axis and the
+imaginary part is represented along the vertical axis.
+
+=== Complex Conjugate
+
+The *Complex Conjugate* of a complex number $a+b i$ is $a-b i$. It is same as
+the original number except the sign of the imaginary number is changed to it's
+opposite sign.
+
+=== Powers of _i_
+
+$
+  i^2 = -1
+  i^3 = -i
+  i^4 = 1
+$
+
+*Problem*: Evaluate $i^35$
+$
+  i^35 =& i^32 times i^3\
+  =     & (i^4)^8 times -i\
+  =     & 1^8 times -i\
+  =     & -i
+$
+

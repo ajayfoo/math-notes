@@ -8,10 +8,9 @@
   set text(font: "New Computer Modern", lang: "en")
   show math.equation: set text(weight: 400)
   set heading(numbering: "1.1")
-  show heading: set text(font: "DM Serif Display")
   show heading.where(level: 1): it => [
     #set align(center)
-    #set text(size: 18pt, font: "DM Serif Display")
+    #set text(size: 18pt)
     #counter(heading).display(). #text(it.body)
   ]
   show link:(x)=> [
