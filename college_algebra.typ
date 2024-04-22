@@ -167,6 +167,10 @@ polynomials, whereas $x^(-1)$, $sqrt(y)/y$, $(z x)/y + x^3 + 1/x^2$ are not.
   they are usually written in the beginning of the expression. Example: $327 pi b^88$ in
   the expression $327 pi b^88 + c^2 + d + 45$.
 + *Leading Coefficient*: The constant part of the *leading term*.
++ *Fundamental Theorem of Algebra*: Every polynomial equation of degree "n" with
+  complex number coefficients has "n" roots or solutions in the complex numbers(#sym.CC).
++ *Root Or Zero Or Solution Of A Polynomial*: The value of variable(s) in the
+  polynomial for which it equals zero.
 
 === Special Forms of Polynomials
 
@@ -382,7 +386,7 @@ imaginary part is represented along the vertical axis.
 === Complex Conjugate
 
 The *Complex Conjugate* of a complex number $a+b i$ is $a-b i$. It is same as
-the original number except the sign of the imaginary number is changed to it's
+the original number except the sign of the imaginary number is changed to its
 opposite sign.
 
 === Powers of _i_
@@ -401,3 +405,63 @@ $
   =     & -i
 $
 
+== Quadratic Equations
+
+The equation containing a second-degree polynomial is called a *Quadratic
+Equation*. The standard form of a quadratic equation is $a x^2 + b x + c = 0$,
+where $a, b "and" c in RR and a eq.not 0$
+
+=== Solving By Factorization
+
+*Problem*: Factor and solve the equation $4x^2 + 15x + 9 = 0$.
+
+*Solution*:
+$
+  4x^2 + 12x + 3x + 9 &= 0\
+  4x(x+3) + 3(x+3)    &= 0\
+  (4x+3)(x+3)         &= 0\
+  4x+3 = 0 "and" x+3  &=0\
+  4x                  &=-3\
+  therefore x         &=-3/4\
+  x+3                 &=0\
+  therefore x         &=-3\
+$
+$
+  therefore x &= -3, -3/4
+$
+
+=== Solving By Completing The Square
+
+*Problem*: Solve by completing the square: $x^2 - 6x = 13$.
+
+*Solution*:
+$
+  x^2 + 2 times x times (-3) + (-3)^2 &= 13 - (-3)^2\
+  (x-3)^2                             &= 13 - 9\
+  (x-3)^2                             &= 4\
+  x-3                                 &= plus.minus sqrt(4) &= plus.minus 2\
+  x                                   &= 3 plus.minus 2\
+  therefore x                         &= 5,1
+$
+
+=== Quadratic Formula
+
+For $a x^2 + b x + c = 0$ where $a,b "and" c in RR and a eq.not 0$.
+$ x = (-b plus.minus sqrt(b^2 - 4a c))/(2a) $
+
+*Problem*: Solve the quadratic equation using the quadratic formula: $9x^2 + 3x - 2 = 0$.
+
+*Solution*: Comparing the equation with the standard form of quadratic equation
+we get,
+$
+  a=9, b=3 "and" c=-2\
+  therefore x&=(-3 plus.minus sqrt((-3)^2 - (4 times 9 times (-2))))/(2 times 9)\
+  therefore x&=(-3 plus.minus sqrt(9 - (-72)))/18\
+  therefore x&=(-3 plus.minus sqrt(9+72))/18\
+  therefore x&=(-3 plus.minus sqrt(81))/18\
+  therefore x&=(-3 plus.minus 9)/18\
+  therefore x&=(-1 plus.minus 3)/6\
+  therefore x&=(-1 + 3)/6,(-1-3)/6\
+  therefore x&=2/6,-4/6\
+  therefore x&=1/3,-2/3\
+$
