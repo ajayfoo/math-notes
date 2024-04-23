@@ -465,3 +465,26 @@ $
   therefore x&=2/6,-4/6\
   therefore x&=1/3,-2/3\
 $
+
+=== The Discriminant
+
+The expression "$b^2 - 4a c$" under the radical in the quadratic formula is
+called the *discriminant*, it's often denoted by "D" or "$Delta$"(upper case
+greek delta). The *discriminant* tells us the nature of the roots/solutions like
+so...
+$
+  Delta = 0 arrow.l.r.double.long "two same rational solutions"\
+  Delta > 0 and Delta "is a perfect square" arrow.l.r.double.long "two distinct rational solutions"\
+  Delta > 0 and Delta "is not a perfect square" arrow.l.r.double.long "two distinct irrational solutions"\
+  Delta < 0 arrow.l.r.double.long "two complex solutions"\
+$
+
+== Other Types Of Equations
+
+=== Radical Equations
+
+*Radical Equations* are equations where the variable is located in a radicand.
+*Example*: $sqrt(4x - 33) = 9$, $sqrt(9/(78x)+ 2) = 53 - sqrt(3x + 11)$. While
+solving *radical equations* we may encounter extraneous solutions, those are
+solutions that don't actually satify the equation. We need the check whether
+each potential solution satisfies the equation.
