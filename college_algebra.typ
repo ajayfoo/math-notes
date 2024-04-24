@@ -473,10 +473,10 @@ called the *discriminant*, it's often denoted by "D" or "$Delta$"(upper case
 greek delta). The *discriminant* tells us the nature of the roots/solutions like
 so...
 $
-  Delta = 0 arrow.l.r.double.long "two same rational solutions"\
-  Delta > 0 and Delta "is a perfect square" arrow.l.r.double.long "two distinct rational solutions"\
-  Delta > 0 and Delta "is not a perfect square" arrow.l.r.double.long "two distinct irrational solutions"\
-  Delta < 0 arrow.l.r.double.long "two complex solutions"\
+  Delta &= 0                                     && arrow.l.r.double.long "two same rational solutions"\
+  Delta &> 0 and Delta "is a perfect square"     && arrow.l.r.double.long "two distinct rational solutions"\
+  Delta &> 0 and Delta "is not a perfect square" && arrow.l.r.double.long "two distinct irrational solutions"\
+  Delta &< 0                                     && arrow.l.r.double.long "two complex solutions"\
 $
 
 == Other Types Of Equations
@@ -488,3 +488,26 @@ $
 solving *radical equations* we may encounter extraneous solutions, those are
 solutions that don't actually satify the equation. We need the check whether
 each potential solution satisfies the equation.
+
+=== Absolute Value Equation
+*Absolute value* of $x$ is written as $abs(x)$, where\
+$
+  abs(x) = cases(-x wide & forall x<0, x wide & forall x>=0)
+$
+
+*Example*: $abs(-32)=32, abs(9)=9$
+
+*Absolute Value Equations* are equations containing absolutes values of
+variabes. For *Absolute Value Equations* of form $abs(a x + b) = c$,...
+$
+  c &< 0 arrow.r.double.long "no solution exists"\
+  c &= 0 arrow.r.double.long "one solution exists"\
+  c &> 0 arrow.r.double.long "two solution exists"\
+$
+
+== Linear Inequalities And Absolute Value Inequalities
+
+=== Interval Notation
+
+*Interval* is a set of all the real numbers lying between two fixed endpoints
+without any gaps. *Interval Notation* is a way to represent intervals.
