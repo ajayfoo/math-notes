@@ -509,5 +509,51 @@ $
 
 === Interval Notation
 
-*Interval* is a set of all the real numbers lying between two fixed endpoints
-without any gaps. *Interval Notation* is a way to represent intervals.
+*Interval* is a continuous set of all the real numbers lying between two fixed
+endpoints. *Interval Notation* is a way to represent intervals. In *interval
+notation* "(" and ")" are used to represent open interval and "[" and "]" are
+used to represent closed interval. Open interval don't include their endpoints
+whereas closed interval do.
+
+*Example*:
+
+$
+  1        &<=x<=5 arrow.r.l.double.long && x in [1,5]\
+  1        &<x<5 arrow.r.l.double.long   && x in (1,5)\
+  1        &<=x<5 arrow.r.l.double.long  && x in [1,5)\
+  1        &<x<=5 arrow.r.l.double.long  && x in (1,5]\
+  -infinity&<x<=5 arrow.r.l.double.long  && x in (infinity,5]\
+$
+
+#pagebreak()
+
+=== Properties Of Inequalities
+
+These properties applies to all the inequalities.
+
++ *Addition*: $a<b arrow.r.double.long a+c<b+c$
++ *Multiplication*: $
+    a<b and c>0 arrow.r.double.long a c<b c\
+    a<b and c<0 arrow.r.double.long a c>b c
+  $
+
+*Problem*: Solve $-3/4x >= -5/8 + 2/3x$
+
+*Solution*:
+
+$
+  -3/4x - 2/3x &>= -5/8\
+  (-9 - 8)/12x &>= -5/8\
+  -17/12x      &>= -5/8\
+  17/12x       &<= 5/8 wide "multiplication property"\
+  17/3x        &<= 5/2\
+  x            &<= (5 times 3)/(2 times 17)\
+  therefore x  &<= 15/34\
+  therefore x  &in (-infinity,15/34]\
+$
+
+=== Solving Compound Inequalities
+
+*Compound Inequalities* are equalities containing two ineqaulities in one
+statement.
+
