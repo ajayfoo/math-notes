@@ -490,6 +490,8 @@ solutions that don't actually satify the equation. We need the check whether
 each potential solution satisfies the equation.
 
 === Absolute Value Equation
+
+*Absolute value* can be considered as a distance from one point another.
 *Absolute value* of $x$ is written as $abs(x)$, where\
 $
   abs(x) = cases(-x wide & forall x<0, x wide & forall x>=0)
@@ -557,3 +559,33 @@ $
 *Compound Inequalities* are equalities containing two ineqaulities in one
 statement.
 
+*Problem*: Solve $3<=2x+2<6$
+
+*Solution*:
+
+$
+  1         &<=2x &&<4\
+  1/2       &<=x  &&<2\
+  therefore &x in &&[1/2,2)
+$
+
+=== Absolute Value Inequalities
+
+Inequalities containing absolute values.
+$
+  abs(X) &< k arrow.r.l.double.long -k < X < k\
+  abs(X) &> k arrow.r.l.double.long X < -k or X > k\
+$
+where $X$ is an algebraic expression and $k > 0$. These statements also applies
+to $<= "and" >=$.
+
+*Problem*: Describe all values "x" within a distance of 3 from the number 2.
+
+*Solution*:
+$
+  abs(x - 2)  &<=3\
+  therefore -3&<=x-2&&<=3\
+  -3+2        &<=x  &&<=3+2\
+  -1          &<=x  &&<=5\
+  therefore x &in [-1,5]
+$
