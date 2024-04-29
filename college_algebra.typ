@@ -589,3 +589,26 @@ $
   -1          &<=x  &&<=5\
   therefore x &in [-1,5]
 $
+
+#pagebreak()
+
+= Functions
+
+== Introduction
+
+=== Prerequisite
+
++ *Cartesian Product*: $ {(a,b) | a in A and b in B and A eq.not emptyset and B eq.not emptyset} $
++ *Relation*: A subset of the cartesian product of two non-empty sets. If $R$ is a
+  relation from set $A$ to set $B$ then $R subset.eq A times B$. Depending on the
+  type of relation we want to create between sets we can set conditions that need
+  to be met for an element from set $A$ to related to an element from set $B$,
+  such conditions could $x<=y$ or "there must be a bidirectional edge connecting
+  the two nodes", etc. $x R y arrow.double.l.r.long "relation" R "holds for" x "and" y $.
+  The set of first part of the all elements in a relation set is called the
+  *domain* and the set of second part of all the elements is called the *range*.
+  Each elements of the *domain* set is called an *input value* or *independent
+  variable*. Each elements of the *range* is called the *output value* or
+  *dependent variable*.\ *Example*: $ A &= {1,2,3,4,5,...}\ B &= {0.5,1.0,1.5,2.0,...}\ R &= {(a,b) | b/2 = a and a in A and b in B}\ therefore R &= {(0.5,1),(1,2),(1.5,3),(2,4),...}\ $ Set $B$ is
+  called the *codomain*, it includes the all domain elements and some other
+  elements aren't domain.
