@@ -609,6 +609,31 @@ $
   *domain* and the set of second part of all the elements is called the *range*.
   Each elements of the *domain* set is called an *input value* or *independent
   variable*. Each elements of the *range* is called the *output value* or
-  *dependent variable*.\ *Example*: $ A &= {1,2,3,4,5,...}\ B &= {0.5,1.0,1.5,2.0,...}\ R &= {(a,b) | b/2 = a and a in A and b in B}\ therefore R &= {(0.5,1),(1,2),(1.5,3),(2,4),...}\ $ Set $B$ is
-  called the *codomain*, it includes the all domain elements and some other
-  elements aren't domain.
+  *dependent variable*.\ *Example*: $ A = { "black", "gray", "white" }\ B = {0,1,2,3,...,255}\ R = { (a,b) | a = "black" forall med 0 <= b <= 85 and\ a = "gray" forall med 86<=b<=170 and\ a="white" forall med 171<=b<=255\ a in A and b in B }\ R= {("black",0),("black",1),...,("gray",86),...,("white",171),...} $ Set $B$ is
+  called the *codomain*, it includes all the range elements and some other
+  elements aren't in the range.\
+
+=== Definition
+
+*Function* is a special *relation* where for each input in the domain there is
+strictly only one output in the range.\ *Example*: $ A &= {1,2,3,4,5,...}\ B &= {0.5,1.0,1.5,2.0,...}\ R &= {(a,b) | b/2 = a and a in A and b in B}\ therefore R &= {(0.5,1),(1,2),(1.5,3),(2,4),...}\ $ $R$ is
+a function. *Functions* are denoted by small letters(usually $f$) with the
+input(s) separated by comma, placed inside a pair of parenthesis like $y=f(a,b,c)$,
+where $f$ is the function name and $a,b "and" c$ are the inputs and $y$ is
+output. It's read as "$y$ is a function of $a,b "and" c$" or $y$ is $f$ of $a,b "and" c$.
+There are also other notation of functions like the function $g$ from $X "to" Y$ can
+be denoted by $g:X arrow.r Y$.
+
+*Problems*: Given the $h(p) = p^2 + 2p$, solve h(p)=3.
+
+*Solution*:
+$
+  h(p)             &= 3\
+  p^2 + 2p         &= 3\
+  p^2 - 2p - 3     &= 0\
+  p^2 - 3p + p - 3 &= 0\
+  p(p-3)+1(p-3)    &= 0\
+  (p+1)(p-3)       &= 0\
+  therefore p      &= -1\
+  therefore p      &= 3\
+$
