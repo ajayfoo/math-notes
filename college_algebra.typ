@@ -616,7 +616,8 @@ $
 === Definition
 
 *Function* is a special *relation* where for each input in the domain there is
-strictly only one output in the range.\ *Example*: $ A &= {1,2,3,4,5,...}\ B &= {0.5,1.0,1.5,2.0,...}\ R &= {(a,b) | b/2 = a and a in A and b in B}\ therefore R &= {(0.5,1),(1,2),(1.5,3),(2,4),...}\ $ $R$ is
+strictly only one output in the range. A *function* where for each output
+there's exactly one corresponding input is called a *one-to-one function*.\ *Example*: $ A &= {1,2,3,4,5,...}\ B &= {0.5,1.0,1.5,2.0,...}\ R &= {(a,b) | b/2 = a and a in A and b in B}\ therefore R &= {(0.5,1),(1,2),(1.5,3),(2,4),...}\ $ $R$ is
 a function. *Functions* are denoted by small letters(usually $f$) with the
 input(s) separated by comma, placed inside a pair of parenthesis like $y=f(a,b,c)$,
 where $f$ is the function name and $a,b "and" c$ are the inputs and $y$ is
@@ -637,3 +638,32 @@ $
   therefore p      &= -1\
   therefore p      &= 3\
 $
+
+=== Vertical Line Test
+
+If a vertical line drawn on a graph intersects more than one point on the graph,
+then that graph does not represent a function.
+
+=== Horizontal Line Test
+
+If a horizontal line drawn on a graph intersects more than one point on the
+graph, then that graph does not represent a one-to-one function.
+
+=== Toolkit Functions
+
+$x in RR$ and $f(x) in RR$ for all the *toolkit functions*, unless specified
+otherwise.
+
++ *Constant*: $f(x)=c$, where $c$ is a constant.
++ *Identity*: $f(x)=x$.
++ *Absolute Value*: $f(x)=abs(x)$, where $f(x) in RR^+$.
++ *Quadratic*: $f(x)=x^2$, where $f(x) in RR^+$.
++ *Cubic*: $f(x)=x^3$.
++ *Reciprocal*: $f(x)=1/x$, where $x in RR\\{0}$
++ *Reciprocal Squared*: $f(x)=1/x^2$, where $x in RR\\{0}$ and $f(x) in RR^+$.
++ *Square Root*: $f(x)=sqrt(x)$, where $x in RR^+, f(x) in RR^+$.
++ *Cube Root*: $f(x)=root(3, x)$.
+
+=== Exercises
+
++ Does the relation $y^3=x^2$ represents $y$ as a function of $x$?$ y=root(3, x^2)\ $
