@@ -654,9 +654,10 @@ graph, then that graph does not represent a one-to-one function.
 $x in RR$ and $f(x) in RR$ for all the *toolkit functions*, unless specified
 otherwise.
 
-+ *Constant*: $f(x)=c$, where $c$ is a constant.
-+ *Identity*: $f(x)=x$.
-+ *Absolute Value*: $f(x)=abs(x)$, where $f(x) in RR^+$.
++ *Constant*: $f(x)=c$, where $c$ is a constant. Domain: $[c,c]$, Range: $(-infinity,infinity)$.
++ *Identity*: $f(x)=x$. Domain: $(-infinity,infinity)$, Range: $(-infinity,infinity)$.
++ *Absolute Value*: $f(x)=abs(x)$, where $f(x) in RR^+$. Domain: $(-infinity,infinity)$,
+  Range: $[0,infinity)$.
 + *Quadratic*: $f(x)=x^2$, where $f(x) in RR^+$.
 + *Cubic*: $f(x)=x^3$.
 + *Reciprocal*: $f(x)=1/x$, where $x in RR\\{0}$
@@ -664,6 +665,3 @@ otherwise.
 + *Square Root*: $f(x)=sqrt(x)$, where $x in RR^+, f(x) in RR^+$.
 + *Cube Root*: $f(x)=root(3, x)$.
 
-=== Exercises
-
-+ Does the relation $y^3=x^2$ represents $y$ as a function of $x$?$ y=root(3, x^2)\ $
