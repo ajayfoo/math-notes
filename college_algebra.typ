@@ -656,12 +656,19 @@ otherwise.
 
 + *Constant*: $f(x)=c$, where $c$ is a constant. Domain: $[c,c]$, Range: $(-infinity,infinity)$.
 + *Identity*: $f(x)=x$. Domain: $(-infinity,infinity)$, Range: $(-infinity,infinity)$.
-+ *Absolute Value*: $f(x)=abs(x)$, where $f(x) in RR^+$. Domain: $(-infinity,infinity)$,
-  Range: $[0,infinity)$.
-+ *Quadratic*: $f(x)=x^2$, where $f(x) in RR^+$.
-+ *Cubic*: $f(x)=x^3$.
-+ *Reciprocal*: $f(x)=1/x$, where $x in RR\\{0}$
-+ *Reciprocal Squared*: $f(x)=1/x^2$, where $x in RR\\{0}$ and $f(x) in RR^+$.
-+ *Square Root*: $f(x)=sqrt(x)$, where $x in RR^+, f(x) in RR^+$.
-+ *Cube Root*: $f(x)=root(3, x)$.
++ *Absolute Value*: $f(x)=abs(x)$. Domain: $(-infinity,infinity)$, Range: $[0,infinity)$.
++ *Quadratic*: $f(x)=x^2$. Domain: $(-infinity,infinity)$, Range: $[0,infinity)$
++ *Cubic*: $f(x)=x^3$. Domain: $(-infinity,infinity)$, Range: $(-infinity,infinity)$
++ *Reciprocal*: $f(x)=1/x$, where $x in RR\\{0}$. Domain: $(-infinity,0) union (0,infinity)$.
+  Range: $(-infinity,0) union (0,infinity)$
++ *Reciprocal Squared*: $f(x)=1/x^2$, where $x in RR\\{0}$. Domain: $(-infinity,0) union (0,infinity)$.
+  Range: $(0,infinity)$.
++ *Square Root*: $f(x)=sqrt(x)$. Domain: $[0,infinity)$. Range: $[0,infinity)$
++ *Cube Root*: $f(x)=root(3, x)$. Domain: $(-infinity,infinity)$. Range: $(-infinity,infinity)$.
 
+== Domain and Range
+
+=== Piecewise-Defined Functions
+
+A *Piecewise-Defined* function is a function that requires more than one formula
+to be defined depending on the value of it's input.
