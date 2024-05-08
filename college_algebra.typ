@@ -666,9 +666,8 @@ otherwise.
 + *Square Root*: $f(x)=sqrt(x)$. Domain: $[0,infinity)$. Range: $[0,infinity)$
 + *Cube Root*: $f(x)=root(3, x)$. Domain: $(-infinity,infinity)$. Range: $(-infinity,infinity)$.
 
-== Domain and Range
-
 === Piecewise-Defined Functions
 
 A *Piecewise-Defined* function is a function that requires more than one formula
-to be defined depending on the value of it's input.
+to be defined depending on the value of it's input. *Example*: absolute value
+functions.
