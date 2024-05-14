@@ -671,3 +671,34 @@ otherwise.
 A *Piecewise-Defined* function is a function that requires more than one formula
 to be defined depending on the value of it's input. *Example*: absolute value
 functions.
+
+== Rates Of Change And Behavior Of Graphs
+
+*Rates Of Change* describes how the output value changes relative to the input
+value. The Greek letter Delta($Delta$) denotes the change in a quantity.
+*Example*: Change in x is denoted as $Delta x$.
+
+*Average Rate Of Change* = $(Delta y)/(Delta x) = (y_2 - y_1)/(x_2 - x_1)$, from $(x_1,y_1) "to" (x_2,y_2)$.
+Same as slope.
+
+*Problem*: Find the average rate of change of $f(x)=x^2 + 2x - 8$ on the
+interval $[5,a]$ in simplest forms in terms of $a$.\
+*Solution*:
+$
+  f(5)                           &=25+10-8\
+                                 &=25+2\
+                                 &=27\
+  x_1=5                          &"and" y_1=27\
+
+  f(a)                           &=a^2 + 2a - 8\
+  therefore x_2=a                &"and" y_2= a^2 + 2a -8\
+  therefore "Avg rate of change" &= (y_2 - y_1)/(x_2 - x_1)\
+                                 &=(a^2 + 2a - 8 - 27)/(a - 5)\
+                                 &=(a^2 + 2a -35)/(a-5)\
+                                 &=(a^2 +7a -5a -35)/(a-5)\
+                                 &=(a(a +7) -5(a +7))/(a-5)\
+                                 &=((a-5)(a+7))/(a-5)\
+                                 &=(a+7)\
+
+  therefore "Avg rate of change" &= a+7
+$
