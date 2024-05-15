@@ -702,3 +702,24 @@ $
 
   therefore "Avg rate of change" &= a+7
 $
+
+=== Local Exterma
+
+- *Increasing Function*: If $f$ is a function defined on the interval $Q$ and for
+  every $a<b in Q$ $f(a)=<f(b)$ then $f$ is an *Increasing Function*.
+- *Decreasing Function*: If $f$ is a function defined on the interval $Q$ and for
+  every $a<b in Q$ $f(a)=>f(b)$ then $f$ is an *Decreasing Function*.
+- *Strictly Increasing Function*: If $f$ is a function defined on the interval $Q$ and
+  for every $a<b in Q$ $f(a)<f(b)$ then $f$ is an *Strictly Increasing Function*.
+- *Strictly Decreasing Function*: If $f$ is a function defined on the interval $Q$ and
+  for every $a<b in Q$ $f(a)>f(b)$ then $f$ is an *Strictly Decreasing Function*.
+- *Local/Relative Minimum*: For a function $f$, $b$ is it's *local minima* in the
+  interval $(a,c)$ if $a<b<c$ and for every $x in (a,c)$, $f(x)>=f(b)$. A value of
+  a function where it changes from increasing to decreasing. Plural form is *Local
+  Minima*.
+- *Local/Relative Maximum*: For a function $f$, $b$ is it's *local maxima* in the
+  interval $(a,c)$ if $a<b<c$ and for every $x in (a,c)$, $f(x)<=f(b)$. A value of
+  a function where it changes from to decreasing to increasing. Plural form is
+  *Local Maxima*.
+- *Local Exterma*: *Local Minima* and *Local Maxima* together make *Local
+  Exterma*.
