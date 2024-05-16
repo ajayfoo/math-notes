@@ -703,7 +703,7 @@ $
   therefore "Avg rate of change" &= a+7
 $
 
-=== Local Exterma
+=== Extrema
 
 - *Increasing Function*: If $f$ is a function defined on the interval $Q$ and for
   every $a<b in Q$ $f(a)=<f(b)$ then $f$ is an *Increasing Function*.
@@ -721,5 +721,11 @@ $
   interval $(a,c)$ if $a<b<c$ and for every $x in (a,c)$, $f(x)<=f(b)$. A value of
   a function where it changes from to decreasing to increasing. Plural form is
   *Local Maxima*.
-- *Local Exterma*: *Local Minima* and *Local Maxima* together make *Local
-  Exterma*.
+- *Local Extrema*: *Local Minima* and *Local Maxima* together make *Local
+  Extrema*.
+- *Absolute Minimum*: $f(c)$ is the absolute minimum of $f$ if $f(c)<=f(x)$ for
+  all x in the domain of $f$.
+- *Absolute Maximum*: $f(c)$ is the absolute maximum of $f$ if $f(c)>=f(x)$ for
+  all x in the domain of $f$.
+- *Absolute Extrema*: *Absolute maximum* and *absolute minimum*, respectively,
+  together the make up *Absolute Extrema*.
