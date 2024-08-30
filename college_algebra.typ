@@ -729,3 +729,13 @@ $
   all x in the domain of $f$.
 - *Absolute Extrema*: *Absolute maximum* and *absolute minimum*, respectively,
   together the make up *Absolute Extrema*.
+
+#linebreak()
+== Composition of functions
+The process of combining two or more functions such that the output of one
+function becomes the input of another function.
+$
+  (f compose g)(x)=f(g(x))
+$
+LHS Read as "$f$ composed with $g$ at $x$". RHS Read as "$f$ of $g$ of $x$". The
+open circle "$compose$" is called compostion operator.
