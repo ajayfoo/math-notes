@@ -1,0 +1,10 @@
+#!/bin/bash
+
+PDF_FILE="$1"
+
+mupdf "$PDF_FILE" &
+
+while true; do
+  inotifywait -e close_write,moved_to,create -qq "$PDF_FILE"
+  pkill -HUP mupdf
+done

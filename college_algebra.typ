@@ -738,4 +738,10 @@ $
   (f compose g)(x)=f(g(x))
 $
 LHS Read as "$f$ composed with $g$ at $x$". RHS Read as "$f$ of $g$ of $x$". The
-open circle "$compose$" is called compostion operator.
+open circle "$compose$" is called compostion operator. The result of composition is a composite function.  
+=== Properties
+- Composition of functions are not necessarily commutative.
+- The domain of $(f compose g)(x)$ or $f(g(x))$ are the values in domain of $g$ for which it produces values that are in domain of $f$
+=== Problems
++ The gravitational force on a planet a distance $r$ from the sun is given by the function $G(r)$. The acceleration of a planet subjected to any force $F$ is given by the function $a(F)$. Form a meaningful composition of these two functions, and explain what it means.\ *Solution:* $a(G(r))$ will give the acceleration of planet that is distance $r$ from the sun.
++ Find the domain of $(f compose g)(x)$ where $f(x)=5/(x-1)$ and $g(x)=4/(3x-2)$.\ *Solution:-*\ Step one: Find the domain of the inner most function($g$).\ Find where $g(x) = "undefined"$ or $g(x)arrow.t$.\ $g(x)arrow.t$ when its denominator $3x-2=0$
