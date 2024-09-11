@@ -744,4 +744,22 @@ open circle "$compose$" is called compostion operator. The result of composition
 - The domain of $(f compose g)(x)$ or $f(g(x))$ are the values in domain of $g$ for which it produces values that are in domain of $f$
 === Problems
 + The gravitational force on a planet a distance $r$ from the sun is given by the function $G(r)$. The acceleration of a planet subjected to any force $F$ is given by the function $a(F)$. Form a meaningful composition of these two functions, and explain what it means.\ *Solution:* $a(G(r))$ will give the acceleration of planet that is distance $r$ from the sun.
-+ Find the domain of $(f compose g)(x)$ where $f(x)=5/(x-1)$ and $g(x)=4/(3x-2)$.\ *Solution:-*\ Step one: Find the domain of the inner most function($g$).\ Find where $g(x) = "undefined"$ or $g(x)arrow.t$.\ $g(x)arrow.t$ when its denominator $3x-2=0$
++ Find the domain of $(f compose g)(x)$ where $f(x)=5/(x-1)$ and $g(x)=4/(3x-2)$.\ *Solution:-*\ Step one: Find the domain of the inner most function($g$).\ Find where $g(x) = "undefined"$ or $g(x)arrow.t$.\ $g(x)arrow.t$ when its denominator $3x-2=0$\ $
+3x-2&=0 quad ("say")\
+3x&=2\
+x&=2/3\
+therefore g(x) arrow.t "when" x&=2/3\
+$\ Step two: Find the domain of outer function($f$).\ Find $x$ where $f(x)="undefined"$ or $f(x)arrow.t$.\ $f(x)arrow.t$ when its denominator $x-1=0$.\ $
+x-1&=0 quad ("say")\
+x&=1\
+therefore f(x) arrow.t "when" x&=1\
+therefore x &in (-infinity,1) union (1,infinity)\
+$\ Step three: Find the value of $x$ for which $g$ is defined and $g(x)$ is in the domain of $f$.\ $therefore$ Find the values of $x$ for which $g(x) "is defined or" g(x)arrow.b "and" g(x) eq.not 1$.\ $
+4/(3x-2)&=1 quad ("say")\
+4&=3x-2\
+4+2&=3x\
+6&=3x\
+3x&=6\
+x&=2\
+ therefore "the domain of" (f compose g)(x) &in (-infinity, infinity) - {2/3,2}
+$
