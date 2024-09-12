@@ -738,28 +738,57 @@ $
   (f compose g)(x)=f(g(x))
 $
 LHS Read as "$f$ composed with $g$ at $x$". RHS Read as "$f$ of $g$ of $x$". The
-open circle "$compose$" is called compostion operator. The result of composition is a composite function.  
-=== Properties
+open circle "$compose$" is called compostion operator. The result of composition
+is a composite function.=== Properties
 - Composition of functions are not necessarily commutative.
-- The domain of $(f compose g)(x)$ or $f(g(x))$ are the values in domain of $g$ for which it produces values that are in domain of $f$
+- The domain of $(f compose g)(x)$ or $f(g(x))$ are the values in domain of $g$ for
+  which it produces values that are in domain of $f$
 === Problems
-+ The gravitational force on a planet a distance $r$ from the sun is given by the function $G(r)$. The acceleration of a planet subjected to any force $F$ is given by the function $a(F)$. Form a meaningful composition of these two functions, and explain what it means.\ *Solution:* $a(G(r))$ will give the acceleration of planet that is distance $r$ from the sun.
-+ Find the domain of $(f compose g)(x)$ where $f(x)=5/(x-1)$ and $g(x)=4/(3x-2)$.\ *Solution:-*\ Step one: Find the domain of the inner most function($g$).\ Find where $g(x) = "undefined"$ or $g(x)arrow.t$.\ $g(x)arrow.t$ when its denominator $3x-2=0$\ $
-3x-2&=0 quad ("say")\
-3x&=2\
-x&=2/3\
-therefore g(x) arrow.t "when" x&=2/3\
-$\ Step two: Find the domain of outer function($f$).\ Find $x$ where $f(x)="undefined"$ or $f(x)arrow.t$.\ $f(x)arrow.t$ when its denominator $x-1=0$.\ $
-x-1&=0 quad ("say")\
-x&=1\
-therefore f(x) arrow.t "when" x&=1\
-therefore x &in (-infinity,1) union (1,infinity)\
-$\ Step three: Find the value of $x$ for which $g$ is defined and $g(x)$ is in the domain of $f$.\ $therefore$ Find the values of $x$ for which $g(x) "is defined or" g(x)arrow.b "and" g(x) eq.not 1$.\ $
-4/(3x-2)&=1 quad ("say")\
-4&=3x-2\
-4+2&=3x\
-6&=3x\
-3x&=6\
-x&=2\
- therefore "the domain of" (f compose g)(x) &in (-infinity, infinity) - {2/3,2}
-$
++ The gravitational force on a planet a distance $r$ from the sun is given by the
+  function $G(r)$. The acceleration of a planet subjected to any force $F$ is
+  given by the function $a(F)$. Form a meaningful composition of these two
+  functions, and explain what it means.\ *Solution:* $a(G(r))$ will give the
+  acceleration of planet that is distance $r$ from the sun.
++ Find the domain of $(f compose g)(x)$ where $f(x)=5/(x-1)$ and $g(x)=4/(3x-2)$.\ *Solution:-*\ Step
+  one: Find the domain of the inner most function($g$).\ Find where $g(x) = "undefined"$ or $g(x)arrow.t$.\ $g(x)arrow.t$ when
+  its denominator $3x-2=0$\ $
+    3x-2                           &=0 quad ("say")\
+    3x                             &=2\
+    x                              &=2/3\
+    therefore g(x) arrow.t "when" x&=2/3\
+  $\ Step two: Find the domain of outer function($f$).\ Find $x$ where $f(x)="undefined"$ or $f(x)arrow.t$.\ $f(x)arrow.t$ when
+  its denominator $x-1=0$.\ $
+    x-1                            &=0 quad ("say")\
+    x                              &=1\
+    therefore f(x) arrow.t "when" x&=1\
+    therefore x                    &in (-infinity,1) union (1,infinity)\
+  $\ Step three: Find the value of $x$ for which $g$ is defined and $g(x)$ is in
+  the domain of $f$.\ $therefore$ Find the values of $x$ for which $g(x) "is defined or" g(x)arrow.b "and" g(x) eq.not 1$.\ $
+    4/(3x-2)                                   &=1 quad ("say")\
+    4                                          &=3x-2\
+    4+2                                        &=3x\
+    6                                          &=3x\
+    3x                                         &=6\
+    x                                          &=2\
+    therefore "the domain of" (f compose g)(x) &in (-infinity, infinity) - {2/3,2}
+  $
++ Find the domain of $(f compose g)(x)$ where $f(x)=1/(x-2)$ and $g(x)=sqrt(x+4)$.\ *Solution:-*\ Step
+  1: Find the domain of innermost function i.e. $g$.\ $g(x)arrow.t$ when $x + 4 < 0$.\ $
+    therefore g(x)arrow.t "when" x < -4\
+    therefore g(x)arrow.b forall x in [-4,infinity)\
+  $\ Step 2: Find the domain of next innermost function i.e. $f$.\ $f(x)arrow.t "when" x - 2 = 0$.\ $
+    therefore f(x)arrow.t "when" x &=2\
+    therefore f(x)arrow.b forall x &in (-infinity,2) union (2,infinity)
+  $\ Step 3: Find what values of $x$ will yield 2 for $g(x)$.\ $
+    g(x)               &=2 quad ("say")\
+    therefore sqrt(x+4)&=2\
+    therefore x+4      &= 2^2\
+    therefore x        &= -4 + 4\
+    therefore x        &= 0\
+  $\ $therefore$ The domain of $(f compose g)(x)$ is $[-4,0) union (0, infinity)$
+
+=== Decomposition of function
+We can decompose(break down) a complex function into two or more simpler
+function and represent it as a composition of those simpler functions.\
+Example: We can decompose $f(x)=4/(3-sqrt(4+x^2))$ into $g(x)=sqrt(4+x^2)$ and $h(x)=4/(3-x)$ and
+represent it as a composite function $(h compose g)(x)=4/(3-(sqrt(4 + x^2)))$
