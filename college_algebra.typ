@@ -795,9 +795,18 @@ represent it as a composite function $(h compose g)(x)=4/(3-(sqrt(4 + x^2)))$
 ==
 == Transformation Of Functions
 Change the functions in some way.=== Shifting Shifting is a type of function
-transformation where we move the function up, down, right or left.\ *Vertical Shift:* Adding
-or subtracting a constant from the function. Example: To vertically shift $f(x)$ by $k$ units
-we need to add $k$ to $f(x)$, the transformed function will be $f(x)+k$.\ *Horizontal Shift:* Adding
-or subtracting constants from the input. For example the horizontal shift of $f(x)$ by $k$ units
+transformation where we move the function up, down, right or left.=== Shifts
+*Vertical Shift:* Adding or subtracting a constant from the function. Example:
+To vertically shift $f(x)$ by $k$ units we need to add $k$ to $f(x)$, the
+transformed function will be $f(x)+k$.\ *Horizontal Shift:* Adding or
+subtracting constants from the input. For example the horizontal shift of $f(x)$ by $k$ units
 is $g(x)=f(x+k)$. If $k$ is -ve then the $f(x)$ will shift $k$ units right else $f(x)$ will
 shift $k$ units left.
+
+=== Reflections
+*Vertical Reflection:* Given a function $f(x)$ a new function $h(x)=-f(x)$ is a
+vertical reflection of the function sometimes called a reflection about (or
+over, or through) the x-axis.\
+*Horizontal Reflection:* Given a function $f(x)$ a new function $h(x)=f(-x)$ is
+a horizontal reflection of the function sometimes called reflection about the
+y-axis.
