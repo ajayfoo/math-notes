@@ -810,3 +810,21 @@ over, or through) the x-axis.\
 *Horizontal Reflection:* Given a function $f(x)$ a new function $h(x)=f(-x)$ is
 a horizontal reflection of the function sometimes called reflection about the
 y-axis.
+
+=== Even And Odd Functions
+*Even Function:* If the horizontal reflection of a function is the same as the
+original function then it's an Even Function.$
+  f(x)=f(-x)
+$\ The graph of an even function is symmetric about the y-axis. A function is
+symmetric about the y-axis if $forall (x,y) exists (-x, y)$ on it.\ *Odd Function:* If
+we horizontally and vertically reflect a function and get the original function
+then that function is an Odd Function.$
+  f(x)=-f(-x)
+$\ The graph of an odd function is symmetric about the origin. A function is
+symmetric about the origin if $forall (x,y) exists (-x, -y)$ on it.
+
+=== Stretches And Compressions
+- *Vertical:*\ Given function $f$, $g(x)=a f(x)$ is a vertical stretch if $a>1$,
+  else if $0<a<1$ it's a vertical compression, else if $-1<a<0$ it's a vertical
+  compression with vertical reflection, else if $a < -1$ it's a vertical stretch
+  with vertical reflection.
