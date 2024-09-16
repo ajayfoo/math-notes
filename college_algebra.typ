@@ -815,16 +815,25 @@ y-axis.
 *Even Function:* If the horizontal reflection of a function is the same as the
 original function then it's an Even Function.$
   f(x)=f(-x)
-$\ The graph of an even function is symmetric about the y-axis. A function is
-symmetric about the y-axis if $forall (x,y) exists (-x, y)$ on it.\ *Odd Function:* If
+$\ The graph of an even function is symmetric about the y-axis. *A function is
+symmetric about the y-axis if $forall (x,y) exists (-x, y)$ on it.*\ *Odd Function:* If
 we horizontally and vertically reflect a function and get the original function
 then that function is an Odd Function.$
   f(x)=-f(-x)
-$\ The graph of an odd function is symmetric about the origin. A function is
-symmetric about the origin if $forall (x,y) exists (-x, -y)$ on it.
+$\ The graph of an odd function is symmetric about the origin. *A function is
+symmetric about the origin if $forall (x,y) exists (-x, -y)$ on
+it.*
 
 === Stretches And Compressions
-- *Vertical:*\ Given function $f$, $g(x)=a f(x)$ is a vertical stretch if $a>1$,
-  else if $0<a<1$ it's a vertical compression, else if $-1<a<0$ it's a vertical
-  compression with vertical reflection, else if $a < -1$ it's a vertical stretch
-  with vertical reflection.
+- *Vertical:*\ Given function $f$, $g(x)=a f(x)$ where $
+    g(x)=cases(
+      "vertical stretch if" a>1, "vertical compression if" 0<a<1, "vertical compression with vertical reflection if" -1<a<0, "vertical stretch with vertical reflection if" a< -1,
+
+    )
+  $
+- *Horizontal:*\ Given function $f$, $g(x)= f(a x)$ where $
+    g(x)=cases(
+      "horizontal compression by" 1/a "if" a>1, "horizontal stretch by" 1/a "if" 0<a<1, "horizontal stretch by" 1/a "with horizontal reflection if" -1<a<0, "horizontal compression by" 1/a "with horizontal reflection if" a< -1,
+
+    )
+  $
