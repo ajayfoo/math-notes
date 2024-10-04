@@ -837,3 +837,35 @@ it.*
 
     )
   $
+
+=== Multiple Transformation
+For multiple tranformation follow the same order as *PEMDAS*.
+
+== Absolute Value Functions
+=== Absolute Value Equations
+Equations of form:
+$
+|A| = B
+$
+where $A "and" B in RR$ and $B>=0$. $B=A$ if $A>=0$ else $B=-A$. In an *absoulute value equation* the unknown value is in absolute value bars. Example: $|x|=9, |x-32|=102$
+
+*Problem 1:* For the function $f(x)=|2x-1|-3$, find the values of $x$ such that $f(x)=0$\
+*Solution:-*
+$
+"when" f(x)&=0\
+therefore 0&=|2x-1|-3\
+therefore 3&=|2x-1|\
+"if" (2x-1)&>=0 "then"\
+3&=2x-1\
+3+1&=2x\
+4&=2x\
+4/2&=x\
+therefore x&=2\
+"if" (2x-1)&<0 "then"\
+3&=-(2x-1)\
+-3&=2x-1\
+-3+1&=2x\
+-2&=2x\
+therefore x&=-1\
+therefore x=-1 "or" x=2& "when" f(x)=0
+$
